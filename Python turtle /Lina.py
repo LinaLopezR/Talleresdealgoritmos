@@ -1,0 +1,45 @@
+import turtle
+nombre=turtle.Turtle()
+colors=['green']
+for i in range(1):
+    nombre.color(colors[i%1])
+
+  
+    nombre.left(150)
+    nombre.forward(155)
+    nombre.left(30)
+    #I
+    nombre.left(60)
+    nombre.forward(45)
+    nombre.left(90)
+    nombre.forward(155)
+    nombre.left(90)
+    nombre.forward(25)
+    nombre.left(180)
+    nombre.forward(50)
+    nombre.left(180)
+    nombre.forward(25)
+    nombre.left(90)
+    nombre.forward(155)
+    nombre.left(90)
+    nombre.forward(25)
+    #N
+    nombre.left(90)
+    nombre.forward(155)
+    nombre.left(200)
+    nombre.forward(165)
+    nombre.left(160)
+    nombre.forward(155)
+    #A
+    nombre.left(180)
+    nombre.forward(155)
+    nombre.left(160)
+    nombre.forward(165)
+    nombre.left(220)
+    nombre.forward(165)
+    nombre.left(180)
+    nombre.forward(82)
+    nombre.left(70)
+    nombre.forward(57)
+    nombre.left(180)
+    nombre.forward(57)
